@@ -1,3 +1,15 @@
+"""
+Rawgex é uma ferramenta de filtragem de tráfego HTTP :)
+
+A filtragem é alcançada por meio de expressão regular.
+
+Obs: ferramenta criada como prova de conceito para demonstrar
+a insegurança de dados de login trafegados em comunicação não
+criptografada.
+
+*-* Usa a biblioteca Scapy <3
+"""
+
 from scapy.all import *
 from functools import partial
 
